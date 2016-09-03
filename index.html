@@ -3,6 +3,7 @@
 
 <head>
 	<link href="css/bar-ui.css" rel="stylesheet">
+	<link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
 	<link href="css/styles.css" rel="stylesheet">
 </head>
 
@@ -20,7 +21,7 @@
 			</div>
 			<div class="sm2-inline-element sm2-button-element">
 				<div class="sm2-button-bd">
-					<a id="play" class="sm2-inline-button play-pause">Play / pause</a>
+					<a id="play" title="Play/Pause" class="sm2-inline-button play-pause">Play / pause</a>
 				</div>
 			</div>
 
@@ -51,19 +52,19 @@
 			<div class="sm2-inline-element sm2-button-element sm2-volume">
 				<div class="sm2-button-bd">
 					<span class="sm2-inline-button sm2-volume-control volume-shade"></span>
-					<a id="volume" class="sm2-inline-button sm2-volume-control">volume</a>
+					<a id="volume" title="Volume" class="sm2-inline-button sm2-volume-control">volume</a>
 				</div>
 			</div>
 
 			<div class="sm2-inline-element sm2-button-element">
 				<div class="sm2-button-bd">
-					<a id="prev" title="Previous" class="sm2-inline-button previous">&lt; previous</a>
+					<a id="prev" title="Backward" class="sm2-inline-button previous">&lt; previous</a>
 				</div>
 			</div>
 
 			<div class="sm2-inline-element sm2-button-element">
 				<div class="sm2-button-bd">
-					<a id="next" title="Next" class="sm2-inline-button next">&gt; next</a>
+					<a id="next" title="Forward" class="sm2-inline-button next">&gt; next</a>
 				</div>
 			</div>
 
@@ -102,7 +103,8 @@
 		var reader = new FileReader();
 		var mediaFile = null;
 		var id = 0;
-		var startPoint = 0, endPoint = 1000;
+		var startPoint = 1000,
+			endPoint = 5000;
 		soundManager.setup({
 			// trade-off: higher UI responsiveness (play/progress bar), but may use more CPU.
 			html5PollingInterval: 50,
@@ -136,7 +138,6 @@
 			window.sm2BarPlayers[0].actions.play();
 		});
 
-		 //soundManager.onPosition('mySound', 3000, function(eventPosition){console.log(this.id+' reached '+eventPosition)});
 	</script>
 </body>
 

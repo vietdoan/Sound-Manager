@@ -9,7 +9,7 @@
   "author": "vietdoan",
   "license": "ISC",
   "dependencies": {
-    "jquery": "^3.1.0",
+    "bootstrap": "^3.3.7",
     "soundmanager2": "^2.97.20150601-a"
   }
 }

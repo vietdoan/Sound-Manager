@@ -9,3 +9,7 @@
 .sm2-bar-ui .sm2-inline-texture {
  background: transparent;
 }
+
+.btn-success {
+	background-color: #27ae60;
+}

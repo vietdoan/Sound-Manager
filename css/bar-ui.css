@@ -100,7 +100,7 @@
 .sm2-bar-ui .bd,
 .sm2-bar-ui .sm2-extra-controls {
 	position: relative;
-	background-color: #2288cc;
+	background-color: #27ae60;
 	/*
  transition: background 0.2s ease-in-out;
  */
@@ -578,13 +578,13 @@
 }
 
 .previous {
-	background-image: url(../image/icomoon/entypo-25px-ffffff/PNG/first.png);
-	background-image: none, url(../image/icomoon/entypo-25px-ffffff/SVG/first.svg);
+	background-image: url(../image/icomoon/entypo-25px-ffffff/PNG/backward2.png);
+	background-image: none, url(../image/icomoon/entypo-25px-ffffff/SVG/backward2.svg);
 }
 
 .next {
-	background-image: url(../image/icomoon/entypo-25px-ffffff/PNG/last.png);
-	background-image: none, url(../image/icomoon/entypo-25px-ffffff/SVG/last.svg);
+	background-image: url(../image/icomoon/entypo-25px-ffffff/PNG/forward3.png);
+	background-image: none, url(../image/icomoon/entypo-25px-ffffff/SVG/forward3.svg);
 }
 
 .load {
@@ -612,8 +612,8 @@
 }
 
 .repeat {
-	background-image: url(../image/icomoon/entypo-25px-ffffff/PNG/loop.png);
-	background-image: none, url(../image/icomoon/entypo-25px-ffffff/SVG/loop.svg);
+	background-image: url(../image/icomoon/entypo-25px-ffffff/PNG/arrow.png);
+	background-image: none, url(../image/icomoon/entypo-25px-ffffff/SVG/arrow.svg);
 	background-position: 50% 43%;
 	background-size: 54%;
 }
